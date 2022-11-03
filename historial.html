@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Pokémon</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pokédex</a></li>
+                <li><a>Historial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Historial</h2>
+        <div id="mustra-historial"></div>
+        <button type="button" onclick="localStorage.clear(); window.location.reload();">Borrar historial</button>
+    </main>
+    <footer>
+        <p>Trabajo Práctico 1 - Consumo de una API</p>
+        <p>Aplicaciones Web Progresivas</p>
+        <p>Juan Ignacio Amestoy</p>
+    </footer>
+    <script src="js/detalle.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Pokémon</h1>
+        <nav>
+            <ul>
+                <li><a>Pokédex</a></li>
+                <li><a href="historial.html">Historial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Pokédex</h2>
+        <div class="barra-busqueda">
+            <label for="campoBusqueda">Buscar un Pokémon</label>
+            <input type="text" id="campoBusqueda" onkeyup="Busqueda()">
+        </div>
+        <div id="app"></div>
+    </main>
+    <footer>
+        <p>Trabajo Práctico 1 - Consumo de una API</p>
+        <p>Aplicaciones Web Progresivas</p>
+        <p>Juan Ignacio Amestoy</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
